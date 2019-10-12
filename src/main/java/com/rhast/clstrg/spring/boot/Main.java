@@ -1,5 +1,9 @@
 package com.rhast.clstrg.spring.boot;
 
+import java.io.File;
+import java.io.FileReader;
+import java.net.URL;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -22,5 +26,6 @@ public class Main {
     @EventListener(ApplicationReadyEvent.class)
     private void printAppUrl() {
         logger.info("Test app on http://127.0.0.1:8080/test");
+        logger.info("Test app on http://127.0.0.1:8080/google-auth");
     }
 }

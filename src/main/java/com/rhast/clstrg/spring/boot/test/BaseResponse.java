@@ -1,4 +1,4 @@
-package com.rhast.clstrg.spring.boot;
+package com.rhast.clstrg.spring.boot.test;
 
 /**
  * @author lermontov-w
